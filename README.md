@@ -70,16 +70,16 @@ Add the following inside .gitignore:
 ## 📊 Flow Diagram (Mermaid format for README.md)
 ------------------------------------------------------------
 
-    ```mermaid
-    graph TD;
-        A[Start Project] --> B[Create Virtual Environment];
-        B --> C[Activate Environment];
-        C --> D[Install Packages];
-        D --> E[Export requirements.txt];
-        E --> F[Add venv to .gitignore];
-        F --> G[Push to GitHub];
-        G --> H[Done ✅];
-    ```
+```mermaid
+graph TD;
+    A[Start Project] --> B[Create Virtual Environment];
+    B --> C[Activate Environment];
+    C --> D[Install Packages];
+    D --> E[Export requirements.txt];
+    E --> F[Add venv to .gitignore];
+    F --> G[Push to GitHub];
+    G --> H[Done ✅];
+```
 
 ------------------------------------------------------------
 
