@@ -1,39 +1,45 @@
-🐍 Creating a Python Virtual Environment (Without Disturbing Others)
+# 🐍 Creating a Python Virtual Environment (Without Disturbing Others)
 
 When working on Python projects, it's best to use a virtual environment so your dependencies are isolated and don't interfere with other projects.
 
 ------------------------------------------------------------
-📌 Steps to Create and Use a Virtual Environment
+## 📌 Steps to Create and Use a Virtual Environment
 ------------------------------------------------------------
 
 1️⃣ Navigate to Your Project Folder:
+
     cd path/to/your/project
 
 2️⃣ Create the Virtual Environment:
+
     python3 -m venv venv
 
 3️⃣ Activate the Virtual Environment:
+
     source venv/bin/activate
 
 💡 Once activated, you’ll see (venv) appear at the start of your terminal prompt.
 
 4️⃣ Deactivate the Virtual Environment:
+
     deactivate
 
 
 ------------------------------------------------------------
-📦 Managing Dependencies with requirements.txt
+ ## 📦 Managing Dependencies with requirements.txt
 ------------------------------------------------------------
 
 📥 Save all installed libraries into a requirements.txt file:
+
     pip freeze > requirements.txt
 
 📤 Recreate the same environment elsewhere:
+
     pip install -r requirements.txt
 
 
 ------------------------------------------------------------
-🚫 Ignoring the venv Folder in GitHub
+## 🚫 Ignoring the venv Folder in GitHub
 ------------------------------------------------------------
 
 You should NOT upload the venv folder to GitHub.  
@@ -49,7 +55,7 @@ Add the following inside .gitignore:
 
 
 ------------------------------------------------------------
-🚀 Pushing Your Project to GitHub
+## 🚀 Pushing Your Project to GitHub
 ------------------------------------------------------------
 
     git init
@@ -61,7 +67,7 @@ Add the following inside .gitignore:
 
 
 ------------------------------------------------------------
-📊 Flow Diagram (Mermaid format for README.md)
+## 📊 Flow Diagram (Mermaid format for README.md)
 ------------------------------------------------------------
 
     ```mermaid
